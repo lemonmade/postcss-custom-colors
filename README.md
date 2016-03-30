@@ -78,23 +78,23 @@ postcss().use(
 )
 ```
 
-[travis-url]: https://travis-ci.org/lemonmade/blueprint-package
-[travis-image]: https://travis-ci.org/lemonmade/blueprint-package.svg?branch=master
+[travis-url]: https://travis-ci.org/lemonmade/postcss-custom-colors
+[travis-image]: https://travis-ci.org/lemonmade/postcss-custom-colors.svg?branch=master
 
-[coveralls-url]: https://coveralls.io/github/lemonmade/blueprint-package?branch=master
-[coveralls-image]: https://coveralls.io/repos/lemonmade/blueprint-package/badge.svg?branch=master&service=github
+[coveralls-url]: https://coveralls.io/github/lemonmade/postcss-custom-colors?branch=master
+[coveralls-image]: https://coveralls.io/repos/lemonmade/postcss-custom-colors/badge.svg?branch=master&service=github
 
-[dependency-url]: https://david-dm.org/lemonmade/blueprint-package
-[dependency-image]: https://david-dm.org/lemonmade/blueprint-package.svg
+[dependency-url]: https://david-dm.org/lemonmade/postcss-custom-colors
+[dependency-image]: https://david-dm.org/lemonmade/postcss-custom-colors.svg
 
-[devDependency-url]: https://david-dm.org/lemonmade/blueprint-package#info=devDependencies
-[devDependency-image]: https://david-dm.org/lemonmade/blueprint-package/dev-status.svg
+[devDependency-url]: https://david-dm.org/lemonmade/postcss-custom-colors#info=devDependencies
+[devDependency-image]: https://david-dm.org/lemonmade/postcss-custom-colors/dev-status.svg
 
-[npm-url]: https://npmjs.org/package/blueprint-package
-[npm-image]: http://img.shields.io/npm/v/blueprint-package.svg?style=flat-square
+[npm-url]: https://npmjs.org/package/postcss-custom-colors
+[npm-image]: http://img.shields.io/npm/v/postcss-custom-colors.svg?style=flat-square
 
-[climate-url]: https://codeclimate.com/github/lemonmade/blueprint-package
-[climate-image]: http://img.shields.io/codeclimate/github/lemonmade/blueprint-package.svg?style=flat-square
+[climate-url]: https://codeclimate.com/github/lemonmade/postcss-custom-colors
+[climate-image]: http://img.shields.io/codeclimate/github/lemonmade/postcss-custom-colors.svg?style=flat-square
 
-[maintained-url]: https://github.com/lemonmade/blueprint-package/pulse
+[maintained-url]: https://github.com/lemonmade/postcss-custom-colors/pulse
 [maintained-image]: http://img.shields.io/badge/status-maintained-brightgreen.svg?style=flat-square
