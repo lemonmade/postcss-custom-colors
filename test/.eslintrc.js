@@ -6,7 +6,6 @@ module.exports = {
 
   globals: {
     expect: false,
-    sinon: false,
   },
 
   rules: {
