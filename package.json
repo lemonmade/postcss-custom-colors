@@ -1,0 +1,60 @@
+{
+  "name": "postcss-custom-colors",
+  "version": "1.0.0",
+  "description": "A PostCSS plugin to add color functions that reference hues and shades of your color palette.",
+  "main": "lib/index.js",
+  "jsnext:main": "src/index.js",
+  "scripts": {
+    "lint": "eslint . --max-warnings 0",
+    "test": "NODE_PATH=./test:./src:$NODE_PATH mocha test/ --recursive --compilers js:babel-core/register --reporter spec --require babel-polyfill",
+    "test:cover": "NODE_PATH=./test:./src:$NODE_PATH babel-node $(npm bin)/isparta cover --reporter text --reporter html $(npm bin)/_mocha test/ -- --recursive --reporter spec",
+    "test:watch": "npm test -- --watch --reporter min",
+    "check": "npm run lint && npm run test",
+    "clean": "rimraf lib dist coverage",
+    "build": "npm run clean && babel src --out-dir lib",
+    "preversion": "npm run clean && npm run check",
+    "version": "npm run build",
+    "postversion": "git push && git push --tags && npm run clean",
+    "prepublish": "npm run clean && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/lemonmade/postcss-custom-colors.git"
+  },
+  "author": "Chris Sauve <chrismsauve@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "css",
+    "postcss",
+    "postcss-plugin",
+    "color",
+    "colour",
+    "function"
+  ],
+  "babel": {
+    "presets": [
+      "shopify"
+    ]
+  },
+  "eslintConfig": {
+    "extends": "plugin:shopify/esnext"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.6.5",
+    "babel-core": "^6.7.4",
+    "babel-eslint": "^6.0.0",
+    "babel-loader": "^6.2.4",
+    "babel-preset-shopify": "^10.1.0",
+    "chai": "^3.5.0",
+    "coveralls": "^2.11.9",
+    "eslint": "^2.5.3",
+    "eslint-plugin-shopify": "^10.8.0",
+    "isparta": "^4.0.0",
+    "mocha": "^2.4.5",
+    "rimraf": "^2.5.2",
+    "webpack": "^1.12.14"
+  },
+  "dependencies": {
+    "postcss": "^5.0.19"
+  }
+}

@@ -1,0 +1,9 @@
+*.log
+/.*/
+/coverage/
+/test/
+/config/
+/.eslint*
+/.gitignore
+/.npmignore
+/.travis.yml
